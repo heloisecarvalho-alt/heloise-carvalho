@@ -43,3 +43,51 @@ header{position:sticky;top:0}.nav{gap:24px}nav a{min-height:44px;display:inline-
  .eyebrow{letter-spacing:1.8px}.method-invite{padding-top:24px}
 }
 @media(max-width:380px){nav{gap:6px 14px}.nav{padding-left:20px;padding-right:20px}.steps .step{grid-template-columns:55px minmax(0,1fr);column-gap:12px}.button{padding:12px 16px}}
+
+
+/* Reading scale and responsive editorial rhythm. */
+body{font-size:18px;line-height:1.85}
+p,.service p,.digital p,.steps p,.philosophy-principles p,.architecture-layers p,.treeparts p,.movement-list p,.architecture-note,.philosophy-close{font-size:18px;line-height:1.85}
+h2{font-size:clamp(38px,4.1vw,56px);line-height:1.18;letter-spacing:-.7px}
+h3,.digital h3,.steps h3,.step h3,.movement-list h3,.philosophy-principles h3,.architecture-layers h3,.treeparts h3,.method-invite h3{font-size:30px;line-height:1.25}
+nav,nav a{font-size:16px}nav{gap:24px}
+.button,nav .button{font-size:16px;line-height:1.5;padding:14px 22px;white-space:normal}
+.textlink{font-size:16px;line-height:1.6}.service-examples{font-size:18px;line-height:1.85}
+.service .service-scope,.tiny,.breadcrumbs,.caption,.movement-cycle{font-size:15px;line-height:1.75}
+.eyebrow,.number,.movement-stage,.step-mark span,.steps .step-mark span{font-size:12px;line-height:1.6;letter-spacing:1.6px}
+.professional-portrait figcaption{font-size:13px;line-height:1.7}
+.philosophy-principles strong,.architecture-layers strong{font-size:15px;line-height:1.7}
+footer{font-size:15px;line-height:1.7}.strip{font-size:12px;line-height:1.7;gap:25px}
+.sectionhead{align-items:start}.sectionhead p{max-width:400px}.hero p{max-width:560px}
+.philosophy-principles{grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+.philosophy-principles article,.philosophy-principles article:first-child{border:0;border-top:1px solid var(--olive);padding:24px 0}
+.architecture-layers{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 50px}.layer-arrow{display:none}
+.steps{grid-template-columns:1fr}.steps .step{display:grid;grid-template-columns:90px 220px minmax(0,1fr);gap:25px;padding:30px 0}
+.step+.step{border-left:0;border-top:1px solid var(--line)}.step-mark{grid-row:auto}.step h3{margin:0}.step p{grid-column:auto;margin:0}
+.method-intro{display:block;padding-bottom:50px}.method-intro>div{max-width:850px}.method-intro h1{font-size:clamp(48px,5vw,72px)}.method-intro h1 br{display:none}.method-intro p{max-width:780px}
+.meo-map{padding-top:25px}.meo-map h2{max-width:850px;margin-bottom:40px}
+.meo-label{display:block;font-size:13px;line-height:1.6;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);font-weight:700}
+.meo-foundation{background:var(--pale);border-top:2px solid var(--gold);padding:30px 36px}
+.meo-foundation>p:first-of-type{font-family:'Playfair Display',serif;font-size:clamp(28px,3.2vw,40px);line-height:1.35;color:var(--title);max-width:none;margin:16px 0}
+.meo-foundation>p span{color:var(--gold);padding:0 12px}
+.meo-map .meo-explanation{margin:12px 0 0;max-width:760px}
+.meo-journey{padding:32px 0}.meo-flow{list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:28px;padding:0;margin:25px 0 0}
+.meo-flow li{position:relative;min-width:0;border-top:1px solid var(--line);padding-top:22px}
+.meo-flow li:not(:last-child):after{content:'→';position:absolute;right:-23px;top:14px;color:var(--gold);font-size:24px}
+.meo-count{font-size:14px;color:var(--gold)}.meo-flow h3{font-size:27px;margin:12px 0}.meo-flow p{margin:0}
+.meo-outcome{background:var(--green);padding:32px 36px;color:var(--cream)}.meo-outcome .meo-label{color:#e3bc78}
+.meo-outcome>p:first-of-type{font-family:'Playfair Display',serif;font-size:clamp(30px,3.4vw,44px);line-height:1.3;color:var(--cream);margin:16px 0;max-width:none}.meo-outcome .meo-explanation{color:#dce2d6}
+@media(max-width:1200px){.nav{flex-wrap:wrap;justify-content:center}.brand{width:350px}nav{justify-content:center}.hero,.split{gap:40px}.philosophy-principles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:801px) and (max-width:1080px){.hero h1{font-size:52px}.method-intro h1{font-size:62px}.steps .step{grid-template-columns:80px minmax(0,1fr)}.step-mark{grid-row:1/3}.step p{grid-column:2}.meo-flow{grid-template-columns:1fr}.meo-flow li{display:grid;grid-template-columns:45px 220px minmax(0,1fr);gap:20px;align-items:start;padding:20px 0}.meo-flow h3{margin:0}.meo-flow li:not(:last-child):after{content:'↓';left:8px;right:auto;top:auto;bottom:-24px}}
+@media(max-width:800px){
+ body{font-size:17px}p,.service p,.digital p,.steps p,.philosophy-principles p,.architecture-layers p,.treeparts p,.movement-list p,.architecture-note,.philosophy-close,.service-examples{font-size:17px;line-height:1.85}
+ h2{font-size:clamp(36px,7vw,44px)}h3,.digital h3,.steps h3,.step h3,.movement-list h3,.philosophy-principles h3,.architecture-layers h3,.treeparts h3,.method-invite h3{font-size:28px}
+ .hero h1,.methodhero h1{font-size:clamp(42px,9vw,56px)}.method-intro h1{letter-spacing:-1px}.method-intro{padding-bottom:35px}
+ nav a{font-size:16px}.button,nav .button{font-size:16px;padding:13px 18px}nav{gap:10px 20px}
+ .tiny,.service .service-scope,.breadcrumbs,.caption,.movement-cycle{font-size:14px}.strip{gap:16px}.philosophy-principles,.architecture-layers{grid-template-columns:1fr}
+ .steps .step{grid-template-columns:65px minmax(0,1fr);gap:12px 18px}.step-mark{grid-row:1/3}.step p{grid-column:2}
+ .sectionhead p{max-width:none}.about-layout{gap:35px}.meo-map{padding-top:20px}
+ .meo-foundation,.meo-outcome{padding:26px 24px}.meo-foundation>p span{padding:0 3px}
+ .meo-flow{grid-template-columns:1fr;gap:24px}.meo-flow li{padding:18px 0 8px 48px}.meo-count{position:absolute;left:0;top:21px}.meo-flow h3{font-size:28px;margin:0 0 8px}
+ .meo-flow li:not(:last-child):after{content:'↓';left:4px;right:auto;top:auto;bottom:-25px}.meo-label{font-size:12px}.meo-outcome br{display:none}
+}
